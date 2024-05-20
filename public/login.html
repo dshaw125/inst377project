@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <script src="login.js"></script>
+        <link rel="stylesheet" href="login.css"> 
+    </head>
+    <body style="background-color: bisque;">
+        <h1>Login/Signup Page</h1>
+
+        <div class="main-container">
+            <h2>Please Enter your username and password below!</h1>
+            <div class="form-container">
+                <form onsubmit="userLog(); return false">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username">
+                    <br>
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="text" id="password">
+                    <br>
+                    <br>
+                    <label for="funSelect">Select login or signup:</label>
+                    <select id="funSelect">
+                        <option value="login">Login</option>
+                        <option value="signup">Signup</option>
+                    </select>
+                
+                    <br>
+
+                    <div class="button-container">
+                        <button type="submit"class="button-8">Submit</button>
+                    </div>
+                    
+                </form>
+        </div>
+
+        </div>
+
+
+    </body>
+
+</html>

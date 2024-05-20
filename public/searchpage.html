@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Search Page</title>
+        <script src="searchpage.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+        <link rel="stylesheet" href="searchpage.css"> 
+    </head>
+    <body style="background-color: bisque;">
+        <nav id="main-nav">
+            <ul>
+                <a href="mainpage.html"><li>Main</li></a>
+                <a href="login.html"><li>Log In</li></a>
+            </ul>
+        </nav>
+        <div id="search">
+        <form id="searchBar">
+        <input type="text" id="usersearch" placeholder="Title, author, etc.">
+        <button class="button-8" type="button" onclick="loadSearch()">Search</button>
+        </form>
+    </div>
+        <h1>Search Results</h1>
+
+    <div id="results">
+        <table id="resTable">
+            <tr>
+                <th>Cover</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Link</th>
+            </tr>
+        </table>
+    </div>
+    </body>
+</html>

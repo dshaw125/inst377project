@@ -1,0 +1,52 @@
+<head>
+    <title>Book Result</title>
+    <script src="book.js"></script>
+    <link rel="stylesheet" href="book.css">
+    <style>
+        #main-nav {
+            background-color: crimson;
+            text-align: center;
+        }
+
+        #main-nav li {
+            display: inline-block;
+            position: relative;
+            color: dodgerblue;
+        }
+
+        #main-nav li:hover {
+            background-color: aliceblue;
+            color: black;
+        }
+
+        #main-nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<html style="background-color: bisque;">
+<nav id="main-nav">
+    <ul>
+        <a href="mainpage.html">
+            <li>Main</li>
+        </a>
+        <a href="favoritedBooks.html">
+            <li>Favorites</li>
+        </a>
+        <a href="login.html">
+            <li>Log In</li>
+        </a>
+    </ul>
+</nav>
+
+<h1 id="title">loading...</h1>
+<h2 id="auth">loading...</h2>
+<div id="bookCov">
+    <img id='resultCover' alt="loading...">
+</div>
+<button onclick="addBook()">Add Book</button>
+
+</html>
